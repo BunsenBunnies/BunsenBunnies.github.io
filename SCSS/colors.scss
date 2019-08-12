@@ -1,4 +1,15 @@
 body {
-    color: rgb(80, 80, 80);
+    color: orange;
     background-color: rgb(124, 180, 245);
+}
+
+$prim-colour: green;
+$sec-colour: lightgreen;
+
+$Highlight: yellow;
+
+.red {
+color: $prim-colour;
+background-color: $sec-colour;
+@include center;
 }

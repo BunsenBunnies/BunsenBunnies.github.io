@@ -1,0 +1,18 @@
+
+@mixin center{
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@mixin border-rad ($radius) {
+-webkit-border-radius: $radius;
+border-radius: $radius;
+ 
+}
+
+@mixin opacity ($opacity){
+
+    opacity: $opacity;
+
+}

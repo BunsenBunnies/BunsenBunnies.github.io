@@ -1,0 +1,12 @@
+ul  {
+li {
+    color: $prim-colour;
+}
+
+}
+
+.jumbotron {
+    background: $Highlight;
+    @include border-rad(30px);
+    @include opacity(0.5);
+}

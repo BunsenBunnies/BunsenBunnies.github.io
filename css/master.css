@@ -1,8 +1,24 @@
 body {
-  color: #505050;
+  color: orange;
   background-color: #7cb4f5; }
+
+.red {
+  color: green;
+  background-color: lightgreen;
+  display: block;
+  margin: 0 auto;
+  text-align: center; }
 
 .font {
   font-family: fantasy;
   color: cadetblue;
   font-size: 20px; }
+
+ul li {
+  color: green; }
+
+.jumbotron {
+  background: yellow;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  opacity: 0.5; }
